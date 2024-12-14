@@ -7,36 +7,6 @@
   <version>1.0-RELEASE</version>
   <name>apple_app Maven Webapp</name>
   <url>http://maven.apache.org</url>
-   
-   
-   <distributionManagement>
-        <repository>
-            <id>nexus</id>
-            <name>Ashok IT Releases Nexus Repo</name>
-            <url>http://13.234.67.8:8081/repository/ashokit-release-repository/</url>
-        </repository>
-  
-        <snapshotRepository>
-            <id>nexus</id>
-            <name>Ashok IT Snapshots Nexus Repo</name>
-            <url>http://13.234.67.8:8081/repository/ashokit-snapshot/</url>
-        </snapshotRepository>
-    </distributionManagement>
-	
-	<repositories>
-        <repository>
-            <id>nexus</id>
-            <url>http://13.234.67.8:8081/repository/ashokit-remote-repo/</url>
-        </repository>
-    </repositories>
-	
-  <dependencies>
-  
-    <dependency>
-      <groupId>in.ashokit</groupId>
-      <artifactId>pwd-utils</artifactId>
-      <version>1.0</version>
-    </dependency>
 	
     <dependency>
       <groupId>junit</groupId>
